@@ -8,6 +8,8 @@ import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
+import Detalhes from './components/Detalhes';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Cursos />
         <Gallery />
         <Testimonials />
+        <Detalhes />
         <Contact />
       </main>
       <WhatsAppButton />
